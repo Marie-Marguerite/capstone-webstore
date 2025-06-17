@@ -1,0 +1,109 @@
+/* About.module.css */
+
+/** IMAGES */
+/* responsive image sizing */
+/* !center images in page & have a smaller gap between them. */
+.imgRow {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.imgFluid {
+  display: block;max-width: 100%;
+  height: auto;
+  
+}
+
+/** ABOUT DESCRIPTION */
+/* ABOUT: HEADING */
+.aboutDescriptionHeading {
+  align-self: flex-end;
+  text-align: right;
+  width: 100%;
+}
+
+/* ABOUT: TEXT */
+.aboutDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 935px;
+  margin: 0 auto;
+
+  font-family: "inter", Avenir, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/** ABOUT: LOGO */
+.logoWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+/** CONTACT */
+.aboutContactWrapper {
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: right;
+  align-items: top;
+  gap: 45px;
+  margin: 0 auto;
+  padding: 30px;
+
+  max-width: 935px;
+}
+
+/* CONTACT: 3 BLOCKS */
+.aboutContactBlock {
+  max-width: 180px;
+  min-width: 120px;
+}
+
+.aboutContact h3 {
+  font-size: 15px;
+}
+
+/* ABOUT: CONTACT DETAILS */
+.aboutContact p {
+  font-size: 12px;
+  text-align: left;
+  margin: 2px;
+  padding: 0;
+  max-width: 250px;
+}
+
+@media (max-width: 600px) {
+  .aboutDescriptionHeading {
+    text-align: center;
+  }
+  .logoWrapper {
+    justify-content: center;
+  }
+  .logo {
+    margin-left: 0;
+  }
+
+  .aboutContactWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .aboutContact h3 {
+    text-align: center;
+  }
+  .aboutContact p {
+    text-align: center;
+  }
+}

@@ -1,0 +1,49 @@
+/* LoginToggle.module.css */
+
+.toggleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* BUTTON: LOGOUT */
+.logoutButton {
+  min-width: 60px;
+  margin: 0;
+  padding: 4px;
+
+  outline: none;
+  border: none;
+
+  background: none;
+  font-size: 10px;
+  text-align: center;
+  color: #0b0300;
+}
+.logoutButton:hover {
+  text-decoration: underline;
+  color: #896a51;
+}
+
+/* USER */
+.user {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+}
+
+/* .userIconWrapper {
+  vertical-align: middle;
+} */
+
+#userIcon {
+  /* padding: 20px 0; */
+  
+  max-width: 15px;
+}
+
+.user p {
+  margin: 1px;
+  font-size: 10px;
+}

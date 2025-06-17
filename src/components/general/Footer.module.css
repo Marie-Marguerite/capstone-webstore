@@ -1,0 +1,41 @@
+/* Footer.module.css */ 
+
+/* FOOTER NAVIGATION BAR */
+.footer {
+  border-top: 1px solid #e8e6e6;
+  border-width: 1px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+
+  background-color: #ffffff;
+  position: relative;
+}
+
+/* FOOTER CONTENT */
+.footerContent {
+  padding: 15px 0;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #0b0a07;
+}
+
+/* MENU LINKS */
+.link {
+  min-width: 100px;
+}
+.cartLink {
+  display: inline-flex;
+  gap: 4px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #0b0a07;
+}
+.footer a:hover {
+  font-weight: 500;
+}
