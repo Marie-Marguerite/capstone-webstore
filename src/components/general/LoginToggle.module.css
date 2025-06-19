@@ -33,13 +33,7 @@
   align-items: end;
 }
 
-/* .userIconWrapper {
-  vertical-align: middle;
-} */
-
 #userIcon {
-  /* padding: 20px 0; */
-  
   max-width: 15px;
 }
 

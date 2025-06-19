@@ -75,5 +75,6 @@
 }
 
 .selectError {
+  font-style: italic;
   color: #bb4940;
 }

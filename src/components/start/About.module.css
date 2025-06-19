@@ -2,7 +2,6 @@
 
 /** IMAGES */
 /* responsive image sizing */
-/* !center images in page & have a smaller gap between them. */
 .imgRow {
   display: flex;
   justify-content: center;

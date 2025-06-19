@@ -1,8 +1,6 @@
 // ColorDropdown.jsx
 import styles from "./ColorDropdown.module.css";
 
-//! check ({}) syntax
-
 export default function ColorDropdown({
   productId,
   colors,

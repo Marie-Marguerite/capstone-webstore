@@ -5,7 +5,7 @@ const initialState = {
   cartItems: JSON.parse(localStorage.getItem("cartItems")) || [],
   shippingCost: 0,
   shippingMethod: "",
-  addedToCart: false, // todo make use of this when styling !IS THIS USED SOMEWHERE?
+  addedToCart: false, 
 };
 
 const ProductSlice = createSlice({

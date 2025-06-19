@@ -1,5 +1,4 @@
 // About.jsx
-// todo split into smaller components
 import styles from "./About.module.css";
 import LogoBird from "../../assets/LogoBird.jpg";
 import { Figure, Row, Col, Container } from "react-bootstrap";
@@ -110,6 +109,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
