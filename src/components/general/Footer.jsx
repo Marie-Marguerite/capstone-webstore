@@ -1,5 +1,5 @@
 // Footer.jsx
-import styles from "./footer.module.css";
+import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
