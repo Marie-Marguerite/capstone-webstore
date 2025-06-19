@@ -20,7 +20,7 @@ export default function ColorDropdown({
       <option value="">colour</option>
       {/* - map colour options from product array */}
       {colors.map((color, index) => (
-        <option key={index} eventKey={color}>
+        <option key={index} value={color}>
           {color}
         </option>
       ))}
