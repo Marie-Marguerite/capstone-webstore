@@ -1,6 +1,6 @@
 <!-- README.md -->
 
-# L2t11 CAPSTONE: Ferm Living Boutique - React Web Store
+# L2T11 CAPSTONE: Ferm Living Boutique - React Web Store
 
 This is a mock e-commerce front-end, built using React+Vite and Redux. The application allows user to register, login, view products, add items to cart and choose a shipping option.
 
