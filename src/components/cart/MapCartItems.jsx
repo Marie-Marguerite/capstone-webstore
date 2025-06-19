@@ -10,7 +10,7 @@ export default function MapCartItems() {
   return (
     <div className={styles.cartList}>
       {cartItems.map((product) => (
-        <CartProductCard kry={product.id} product={product} />
+        <CartProductCard key={product.id} product={product} />
       ))}
     </div>
   );
